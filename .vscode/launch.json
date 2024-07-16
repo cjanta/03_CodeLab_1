@@ -5,6 +5,13 @@
             "name": "App",
             "request": "launch",
             "mainClass": "com.cc.java.App",
+            "projectName": "03_CodeLab_1_fd91e47d"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "com.cc.java.App",
             "projectName": "03_CodeLab_1_1c534ade"
         },
         {

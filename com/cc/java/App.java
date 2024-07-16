@@ -1,28 +1,16 @@
 package com.cc.java;
 
-import com.Konto;
 
 public class App {
     
     public static void main(String[] args) {
-        Konto konto1 = new Konto();
-        Konto konto2 = new Konto();
-        Konto konto3 = new Konto();
-        output(konto1);
-        output(konto2);
-        output(konto3);
-        output("*************************");
-        konto1.setKonstostand(konto1.getKonstostand() * 2);
-        konto2.setKonstostand(konto2.getKonstostand() * 3);
-        konto3.setKonstostand(konto3.getKonstostand() * 10);
-        output(konto1);
-        output(konto2);
-        output(konto3);
+        Account konto1 = new Account("Rudi Rampensau");
+        Account konto2 = new Account("Ankatrin von Müller");
+        Account konto3 = new Account("BARBARA OF");
+        HLP.log("**********Die Zeit vegeht***************");
+        konto1.setAccountTotal(konto1.getAccountTotal() * 2);
+        konto2.setAccountTotal(konto2.getAccountTotal() * 3);
+        konto3.setAccountTotal(konto3.getAccountTotal() * 10);
     }
-
-
-    private static void output(Object output) {
-        System.out.println(output);
-    } 
 
 }
